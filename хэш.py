@@ -1,5 +1,5 @@
-hash_table = {}
+from typing import Dict
+
+hash_table: Dict[int, str] = {}
 hash_table[1] = "apple"
 hash_table[2] = "banana"
-# или dict() конструктор
-hash_table = dict()
